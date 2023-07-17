@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&family=Rubik&display=swap");
+
+/* .container{
+  width: 1440px;
+height: 1024px;
+top: -1692px;
+left: -720px;
+
+} */
+.login-side {
+  width: 408px;
+  height: 825px;
+  flex-shrink: 0;
+  background: rgba(237, 241, 255, 0.41);
+}
+
+.login-logo {
+  font-family: Prompt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #011f78;
+}
+
+.side-text {
+  display: flex;
+  width: 301px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #011f78;
+  font-family: Prompt;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121.1%;
+}
+
+.sm-text {
+  display: flex;
+  width: 225px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #90979e;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome {
+  color: #011f78;
+  font-family: Prompt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sm-welcome {
+  color: #90979e;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+.pw-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Prompt;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.input-box {
+  /* display: flex; */
+  width: 580px;
+  margin-left: 222px;
+  /* padding: 10px 20px; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.input {
+  margin-left: 70px;
+}
+
+.buttonp {
+  margin-left: 68px;
+  width: 520px;
+  height: 50px;
+  display: flex;
+  border-radius: 8px;
+  background: #011f78;
+  color: var(--text-dark-100-primary, #fff);
+  padding: 14px 16px;
+  justify-content: center;
+  align-items: center;
+  /* flex: 1 0 0; */
+}
+
+.sm-forgot {
+  color: #011f78;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.Email-sent {
+  color: #353535;
+  font-family: Prompt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
