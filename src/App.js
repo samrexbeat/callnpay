@@ -22,7 +22,7 @@ function App() {
   return (
     <>
    <Routes>
-      <Route exact path='/setpassword' Component={LoginAdmin}/>
+      <Route exact path='/' Component={LoginAdmin}/>
       <Route exact path='/login-admin' Component={LoginMain}/>
       <Route exact path='/reset-password' Component={ResetPassword}/>
       <Route exact path='/reset-link' Component={ResetLink}/>

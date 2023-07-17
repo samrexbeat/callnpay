@@ -24,7 +24,7 @@ export default function Router(){
             
             <Routes>
                     {/* login */}
-                    <Route path="/setpassword" element={<LoginAdmin/>} />
+                    <Route path="/" element={<LoginAdmin/>} />
                     <Route path="/login-admin" element={<LoginMain/>} />
                     <Route path="/reset-password" element={<ResetPassword/>} />
                     <Route path="/reset-link" element={<ResetLink/>} />
